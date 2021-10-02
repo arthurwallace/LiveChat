@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = LiveChatAPI
-build_property.ProjectDir = C:\Users\Arthur-Wallace-PC\Documents\Projetos\LiveChat\API\LiveChatAPI\LiveChatAPI\
+build_property.ProjectDir = C:\Users\Arthur-Wallace-PC\Documents\Projetos\API\LiveChatAPI\LiveChatAPI\
