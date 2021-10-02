@@ -12,11 +12,13 @@ const App = () => {
   
   const joinRoom = async (user, room) => {
     try{
+      const UrlAPI = (process.env.REACT_APP_API || 'https://localhost:44384');
       const userId = Math.floor(Math.random()*(999-100+1)+100);
       const userConnected = {id: userId, name: user, room: room};
       setUser(userConnected);
+      console.log(UrlAPI);
       const connection = new HubConnectionBuilder()
-      .withUrl("https://localhost:44324/chat")
+      .withUrl(UrlAPI + "/chat")
       .configureLogging(LogLevel.Information)
       .build();
 
