@@ -18,7 +18,7 @@ namespace ChatService
         {
             services.AddSignalR();
 
-            var UrlFront = Environment.GetEnvironmentVariable("URL_FRONTEND");
+            var UrlFront = Environment.GetEnvironmentVariable("DOTNET_API_FRONTEND");
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
