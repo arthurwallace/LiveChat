@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+.env
+FrontEnd\chat.frontend\.env
+
 # testing
 /coverage
 
