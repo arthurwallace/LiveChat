@@ -1,3 +1,4 @@
+using System;
 using LiveChatAPI.Hubs;
 using LiveChatAPI.Models;
 using Microsoft.AspNetCore.Builder;
@@ -17,11 +18,12 @@ namespace ChatService
         {
             services.AddSignalR();
 
+            var UrlFront = Environment.GetEnvironmentVariable("URL_FRONTEND");
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
                 {
-                    builder.WithOrigins("https://livechat-frontend.herokuapp.com")
+                    builder.WithOrigins(UrlFront)
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials();

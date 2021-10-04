@@ -12,6 +12,7 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
+        "DOTNET_API_FRONTEND": "https://livechat-frontend.herokuapp.com/",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
