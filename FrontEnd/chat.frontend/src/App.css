@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body{
-  font-family: 'poppins',Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  width: auto !important;
+  padding: 1rem !important;
 }
 
 Form Button {
@@ -105,6 +112,21 @@ h2 {
   color: #313131;
 }
 
+.message.message-admin{
+  background-color: #51dbb2;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.message.message-admin.user-left{
+  background-color: #fa6e7c;
+}
+
+.user-message{
+  text-align: center;
+}
+
 .from-user{
   color: #939393;
 }
@@ -118,6 +140,14 @@ h2 {
 }
 
 .from-user-sent {
+  font-size: 0.9rem;
+  padding-right: 1.3rem !important;
+  margin-bottom: 3px;
+  margin-right: 5px;
+  text-align: end;
+}
+
+.from-user-admin {
   font-size: 0.9rem;
   padding-right: 1.3rem !important;
   margin-bottom: 3px;
@@ -140,4 +170,15 @@ h2 {
 
 .btnSend:focus{
   box-shadow: 0 0 0 0.25rem rgb(208 182 251) !important;
+}
+
+@media (max-height: 1000px ) {
+  .message-container {
+    min-height: 25rem;
+
+  }
+  
+  .message {
+    max-width: 90% !important;
+  }
 }
