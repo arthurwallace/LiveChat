@@ -16,7 +16,6 @@ const App = () => {
       const userId = Math.floor(Math.random()*(999-100+1)+100);
       const userConnected = {id: userId, name: user, room: room};
       setUser(userConnected);
-      console.log(UrlAPI);
       const connection = new HubConnectionBuilder()
       .withUrl(UrlAPI + "/chat")
       .configureLogging(LogLevel.Information)
