@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+/chat.frontend
+API\LiveChatAPI\.vs
 # User-specific files
 *.rsuser
 *.suo
@@ -459,3 +461,4 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+API/LiveChatAPI/.vs/LiveChatAPI/v16/.suo
