@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #312849 !important;
+}
+
 .app{
   width: auto !important;
   padding: 1rem !important;
@@ -16,7 +20,7 @@ Form Button {
 }
 
 h2 {
-  color: #313131;
+  color: #F6F6F6;
   font-weight: 800;
 }
 
@@ -31,12 +35,12 @@ h2 {
 .btnJoin{
   margin-top: 1rem;
   border-radius: 40rem !important;
-  background-color: #8849ef !important;
-  border-color: #8849ef !important;
+  background-color: #E14594 !important;
+  border-color: #E14594 !important;
 }
 
 .btnJoin:focus{
-  box-shadow: 0 0 0 0.25rem rgb(208 182 251) !important;
+  box-shadow: 0 0 0 0.25rem #e1459362 !important;
 }
 
 .app {
@@ -67,7 +71,7 @@ h2 {
 
 .user-list {
   float: left;
-  background-color: #313131;
+  background-color: #F6F6F6;
   color:white;
   width: 200px;
   height: 440px;
@@ -75,8 +79,8 @@ h2 {
 }
 
 .message-container {
-  border: 1px solid black;   
-  background-color: white;
+  border: 1px solid #362e4b;   
+  background-color: #504470;
   overflow: auto;
   border-radius: 5px;
   margin-top: 2rem;
@@ -103,7 +107,7 @@ h2 {
 }
 
 .message.message-sent{
-  background-color: #8849ef;
+  background-color: #be3adf;
   color:white;
 }
 
@@ -113,7 +117,7 @@ h2 {
 }
 
 .message.message-admin{
-  background-color: #51dbb2;
+  background-color: #2fb980;
   color: #fff;
   text-align: center;
   margin-top: 0.5rem;
@@ -155,21 +159,25 @@ h2 {
   text-align: end;
 }
 
+.form-control{
+  background-color: #f0e9fc !important;
+}
+
 .form-control:focus {
   color: #212529;
-  background-color: #fff;
+  background-color: #f0e9fc;
   border-color: #646464 !important;
   outline: 0;
   box-shadow: none !important;
 }
 
 .btnSend{
-  background-color: #8849ef !important;
-  border-color: #8849ef !important;
+  background-color: #E14594 !important;
+  border-color: #E14594 !important;
 }
 
 .btnSend:focus{
-  box-shadow: 0 0 0 0.25rem rgb(208 182 251) !important;
+  box-shadow: 0 0 0 0.25rem #e1459362 !important;
 }
 
 @media (max-height: 1000px ) {

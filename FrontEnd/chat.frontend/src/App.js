@@ -61,7 +61,7 @@ const App = () => {
 
 
   return <div className='app'>
-    <h2>Chat ao vivo</h2>
+    <h2>Live Chat</h2>
     {!connection
     ? <Lobby joinRoom={joinRoom} />
     : <Chat messages={messages} user={userConnected} sendMessage={sendMessage} closeConnection = {closeConnection}/>}
